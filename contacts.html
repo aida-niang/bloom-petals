@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Petals</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="site-container">
+
+<header>
+    <!-- Tu peux ajouter des éléments dans le header si nécessaire -->
+</header>
+
+<section class="entete">
+    <div class="menu">
+        <!-- Menu -->
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="entreprise.html">Entreprise</a>
+            <a href="realisations.html">Réalisations</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+    </div>  
+
+    <div class="search">
+        <!-- Formulaire de recherche -->
+        <form class="search-form">
+            <input type="text" placeholder="Recherche..." name="search">
+            <button type="submit">Chercher</button>
+        </form>
+    </div>
+</section>
+
+<section class="contactform">
+    <h1>Contactez-nous ! </h1>
+
+    <form action="#" method="post">
+        <!-- Civilité -->
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite" required>
+            <option value="">--Sélectionnez--</option>
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+            <option value="Mademoiselle">Mademoiselle</option>
+        </select>
+
+        <!-- Nom et Prénom -->
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required aria-label="Prénom">
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required aria-label="Nom">
+
+        <!-- Adresse postale -->
+        <label for="adresse">Adresse postale :</label>
+        <input type="text" id="adresse" name="adresse" required aria-label="Adresse postale">
+
+        <!-- Message -->
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required aria-label="Message"></textarea>
+
+        <!-- Checkbox Politique de confidentialité -->
+        <div class="checkbox">
+            <input type="checkbox" id="confidentialite" name="confidentialite" required aria-label="J'accepte la politique de confidentialité">
+            <label for="confidentialite">J'accepte la <a href="#">politique de confidentialité</a> de l'entreprise</label>
+        </div>
+
+        <!-- Bouton de validation -->
+        <div class="cta">
+            <ul>
+                <li><button type="submit">Envoyer</button></li>
+            </ul>
+        </div>
+    </form>
+</section>      
+
+<footer>
+    <p>&copy; 2024 Bloom Petals. Tous droits réservés.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
