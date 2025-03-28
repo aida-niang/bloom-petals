@@ -1,6 +1,7 @@
 # Bloom Petals – Elegant Floral Designs
+![preview main](./frame_1.png)
 
-##Project Description
+# Project Description
 
 Bloom Petals is a beautifully designed website dedicated to floral arrangements, bouquets, and botanical inspirations. Whether you're looking for a flower shop showcase, event decoration services, or a floral blog, this site offers a seamless user experience with a visually stunning interface.
 
